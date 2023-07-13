@@ -11,7 +11,7 @@ class ProfileView(TemplateView):
         profile_id = context.get('id')
         profile = get_object_or_404(Profile.objects.filter(
             pk=profile_id
-        ).select_related('authors'), pk=profile_id)
+        ).select_related('author'), pk=profile_id)
         return self.render_to_response({
             **context,
             'profile': profile,
