@@ -1,7 +1,7 @@
 # flake8: noqa
-from .environment import * # isort:skip
-from .installed_apps import * # isort:skip
-from .middlewares import * # isort:skip
+from .environment import *  # isort:skip
+from .installed_apps import *  # isort:skip
+from .middlewares import *  # isort:skip
 
 from .templates import *
 from .databases import *
