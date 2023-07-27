@@ -9,6 +9,7 @@ from .security import *
 from .i18n import *
 from .assets import *
 from .messages import *
+from .cors_headers import *
 
 from .debug_toolbar import *  # isort:skip
 from .rest_framework import *  # isort:skip
